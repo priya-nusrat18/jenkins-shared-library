@@ -1,6 +1,6 @@
 def call ()
 {
-    echo "Building jar file..."
+    echo "Building the application file for branch $BRANCH_NAME"
     sh "mvn package"
 
 }
